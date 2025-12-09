@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - NutriDog</title>
+    <link rel="stylesheet" href="./CSS/menu.css">
+    <script src="./js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <header class="main-header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo NutriDog">
+            NutriDog
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="menu.html">Menú</a>
+                    <div class="submenu glass">
+                        <h4>Menú</h4>
+                        <ul>
+                            <li><a href="#">Por enérgico</a></li>
+                            <li><a href="#">Por tamaño</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="#">Contacto</a>
+                    <div class="submenu glass">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="#">Cómo funciona</a></li>
+                            <li><a href="#">Ubicación</a></li>
+                            <li><a href="./formulario.html">Formulario para pedidos</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="#ingredientes">Ingredientes</a>
+                    <div class="submenu glass">
+                        <h4>Ingredientes</h4>
+                        <ul>
+                            <li><a href="#">Beneficios</a></li>
+                            <li><a href="ingredientes.html">Ingredientes</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anuncio-membresia" class="hero-section">
+            <div class="anuncio-contenedor">
+                <div class="anuncio-texto">
+                    <h2>¡Compra tu Membresía NutriDog!</h2>
+                    <p>Accede a productos exclusivos para tu perro, descuentos y más beneficios.</p>
+                    <button class="boton-membresia">Comprar Membresía</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="platillos-populares" class="productos-seccion">
+            <div class="seccion-header">
+                <h3>Platillos Más Vendidos</h3>
+            </div>
+            <div class="productos-grid">
+                <article class="platillo-item">
+                    <img src="./img/plato1.jpg" alt="Arroz con Carne de Res">
+                    <h4>Arroz con Carne de Res</h4>
+                    <p>Arroz con carne de res, zanahorias y brócoli.</p>
+                    <button class="boton">Agregar al carrito</button>
+                </article>
+
+                <article class="platillo-item">
+                    <img src="./img/plato2.jpg" alt="Pollo con Papas">
+                    <h4>Pollo con Papas</h4>
+                    <p>Pollo cocido con papas, zanahorias y guisantes.</p>
+                    <button class="boton">Agregar al carrito</button>
+                </article>
+
+                <article class="platillo-item">
+                    <img src="./img/plato3.jpg" alt="Patas de pollo">
+                    <h4>Patas de Pollo con Sabores</h4>
+                    <p>Patitas de pollo deshidratas, marinadas en salsa</p>
+                    <button class="boton">Agregar al carrito</button>
+                </article>
+            </div>
+        </section>
+
+        <section id="productos-perros" class="productos-seccion">
+            <div class="seccion-header">
+                <h3>Productos Especiales para tu Perro</h3>
+            </div>
+            <div class="productos-grid">
+                <article class="producto-item">
+                    <img src="./img/galletaspollo.jpeg" alt="Galletas de Pollo">
+                    <h4>Galletas de Pollo</h4>
+                    <p>Galletas naturales de pollo para un snack delicioso y saludable.</p>
+                    <button class="boton">Comprar</button>
+                </article>
+
+                <article class="producto-item">
+                    <img src="./img/heladoperro.jpg" alt="Helado para Perros">
+                    <h4>Helado para Perros</h4>
+                    <p>Helado natural de frutas, ideal para el calor.</p>
+                    <button class="boton">Comprar</button>
+                </article>
+
+                <article class="producto-item">
+                    <img src="./img/comidahumeda.jpg" alt="Comida Húmeda">
+                    <h4>Comida Húmeda</h4>
+                    <p>Comida húmeda de pollo y verduras para tu perro.</p>
+                    <button class="boton">Comprar</button>
+                </article>
+
+                <article class="producto-item">
+                    <img src="./img/barrascarne.jpg" alt="Barras de Carne">
+                    <h4>Barras de Carne</h4>
+                    <p>Barras de carne deshidratada, un delicioso snack para tu mascota.</p>
+                    <button class="boton">Comprar</button>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NutriDog. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

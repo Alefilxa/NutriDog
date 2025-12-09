@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriDog | Comida Saludable para tu Mascota</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="./js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+        <header class="main-header">
+        <div class="logo">
+            <img src="./img/logo.png" alt="Logo NutriDog">
+            NutriDog
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html">Inicio</a>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="menu.html">Menú</a>
+                    <div class="submenu glass">
+                        <h4>Menú</h4>
+                        <ul>
+                            <li><a href="#">Por enérgico</a></li>
+                            <li><a href="#">Por tamaño</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="#">Contacto</a>
+                    <div class="submenu glass">
+                        <h4>Contacto</h4>
+                        <ul>
+                            <li><a href="#">Cómo funciona</a></li>
+                            <li><a href="#">Ubicación</a></li>
+                            <li><a href="./formulario.html">Formulario para pedidos</a></li>
+                            <li><a href="#">Historia</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="nav-item has-submenu">
+                    <a href="#ingredientes">Ingredientes</a>
+                    <div class="submenu glass">
+                        <h4>Ingredientes</h4>
+                        <ul>
+                            <li><a href="#">Beneficios</a></li>
+                            <li><a href="ingredientes.html">Ingredientes</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section visible">
+            <div class="hero-content">
+                <div class="nose-texto">
+                    <h2>La mejor opción para tu mascota</h2>
+                    <p>Nuestro equipo te ofrece comida rápida y saludable para tu mascota. Pensando en tu tiempo y su cuidado. Seguro les gustará a ambos.</p>
+                    <div class="nose-botones">
+                        <a href="#menu"><button class="boton-nose">Nuestro Menú</button></a>
+                        <a href="formulario.html"><button class="boton-nose primary">¿List@ para comprar?</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/perroygato.png" alt="Perro Comiendo">
+            </div>
+        </section>
+
+        <section id="menu" class="popular-menu">
+            <div class="section-header">
+                <h3>Los más pedidos</h3>
+                <p>Cada mes hacemos un ranking de la comida más comprada en nuestra página.</p>
+            </div>
+            <div class="menu-grid">
+                <article class="menu-item">
+                    <img src="./img/plato1.jpg" alt="Arroz con carne de res">
+                    <h4>Arroz con Carne de Res</h4>
+                    <p>Arroz blanco con carne de res asada sin condimentos, zanahorias y brócoli para acompañar</p>
+                    <p class="rating">⭐ 8.7</p>
+                    <div class="item-boton">
+                        <span class="precio">30 Bs.</span>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <img src="./img/plato3.jpg" alt="Pollo con papas">
+                    <h4>Pollo con Papas</h4>
+                    <p>Pollo cocido sin condimentos, acompañado por un mix de vegetales: Zanahorias, guisantes y trocitos de papa al horno</p>
+                    <p class="rating">⭐ 9.2</p>
+                    <div class="item-boton">
+                        <span class="precio">28 Bs.</span>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="menu-item">
+                    <img src="./img/plato2.jpg" alt="Patas de pollo con sabores">
+                    <h4>Patas de pollo con sabores</h4>
+                    <p>Patitas de pollo deshidratas, marinadas en dos salsas a elección: BBQ y Lomo saltado. Ambas aptas para mascotas</p>
+                    <p class="rating">⭐ 8.5</p>
+                    <div class="item-boton">
+                        <span class="precio">35 Bs.</span>
+                        <button class="btn">Comprar</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="opiniones" class="client-reviews">
+            <h3>Opiniones de Nuestros Clientes</h3>
+            <div class="reviews-carousel">
+                <div class="review">
+                    <img src="./img/juanperez.jpg" alt="Cliente Juan Pérez" class="profile-img">
+                    <p class="client-name">Juan Pérez</p>
+                    <p class="client-comment">¡La comida es increíble! A mí perro le encanta y la entrega fue super rápida.</p>
+                </div>
+                
+                <div class="review">
+                    <img src="./img/marialopez.jpg" alt="Cliente Maria López" class="profile-img">
+                    <p class="client-name">Maria López</p>
+                    <p class="client-comment">Me sorprendió la calidad de la comida. Es saludable y mi perro devora cada bocado!</p>
+                </div>
+
+                <div class="review">
+                    <img src="./img/carlosgarcia.jpeg" alt="Cliente Carlos García" class="profile-img">
+                    <p class="client-name">Carlos García</p>
+                    <p class="client-comment">NutriDog ofrece la mejor comida para mi perro! Siempre fresca y entregada a tiempo</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicios" class="services">
+            <h3>Nuestros servicios</h3>
+            <ul>
+                <li>Reservas</li>
+                <li>Membresía</li>
+                <li>Delivery</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NutriDog. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
